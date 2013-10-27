@@ -1,4 +1,7 @@
 Test6::Application.routes.draw do
+  match "add_song/showAddSongForm" => "add_song#showAddSongForm"
+  match "addSong" => "add_song#addSong"
+  match "show_song/findSongs" => "show_song#findSongs"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
